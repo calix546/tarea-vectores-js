@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Temperaturas</title>
+</head>
+
+<body>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th colspan="2">Registro de Temperaturas</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Dimension</td>
+            <td>
+                <select id="id-select-dimension">
+                    <option value="7">7</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <button id="id-btn-cargar">Cargar Temperaturas</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button id="id-btn-presentar">Presentar Temperaturas</button>
+            </td>
+            <td>
+                <textarea id="id-txt-presentar" rows="3" readonly></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button id="id-btn-promedio">Calcular Promedio</button>
+            </td>
+            <td>
+                <input type="text" id="id-txt-promedio" readonly>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button id="id-btn-superior">Días Superiores</button>
+            </td>
+            <td>
+                <textarea id="id-txt-superior" rows="3" readonly></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button id="id-btn-total">Producción Total</button>
+            </td>
+            <td>
+                <input type="text" id="id-txt-total" readonly>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button id="id-btn-mayor">Mayor Producción</button>
+            </td>
+            <td>
+                <input type="text" id="id-txt-mayor" readonly>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button id="id-btn-menor">Menor Producción</button>
+            </td>
+            <td>
+                <input type="text" id="id-txt-menor" readonly>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button id="id-btn-critico">Producción Crítica</button>
+            </td>
+            <td>
+                <input type="text" id="id-txt-critico" readonly>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button id="id-btn-repetidos">Producción Repetida</button>
+            </td>
+            <td>
+                <input type="text" id="id-txt-repetidos" readonly>
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+
+<script src="app.js"></script>
+
+</body>
+</html>
